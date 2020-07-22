@@ -1,0 +1,212 @@
+body {
+	padding-left: 61px;
+	padding-right:61px;
+}
+
+.header {
+	color: #404654;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	height:70px;
+	padding-top: 38px ;
+}
+
+.name {
+	color: #0044d6;
+	font-size: 28px ;
+	font-family: "Orpheus Pro";
+	align-items: center;
+	height: 100%;
+ text-decoration: none;
+}
+
+.work {
+	color: #404654;
+	font-size: 21px;
+	font-family: "Adobe Garamond Pro";
+	font-weight: 400;
+	padding-right: 30px;	
+	 text-decoration: none;
+}
+.work-menu-style {
+	color: #404654;
+	font-size: 21px;
+	font-family: "Adobe Garamond Pro";
+	 text-decoration: none;
+}
+
+.work-menu {
+	display:none;
+	
+}
+
+.work:hover .work-menu {
+	
+	display:block;
+    position:absolute;
+    top:100px;
+	text-align:right;
+	left:auto;
+	right:120px;
+    z-index:9999;
+    width:200px;
+	line-height: 0.5;
+}
+
+.name-right {
+	display: flex;
+	height: 100%;
+}
+
+.hello-block {
+	color: #0044d6;
+	display:flex;
+	align-items: center;
+	justify-content: left;
+	padding-top: 60px ;
+	
+}
+
+.hello {
+	font-size: 56px ;
+	font-family: "Orpheus Pro";
+	display:flex;
+	
+}
+
+.text {
+	color: #0044d6;
+	font-size: 56px ;
+	font-family: "Orpheus Pro";
+	padding-top: 170px ;
+	
+	width:1050px;
+	height:550px;
+    line-height: 1.232;
+
+}
+
+.block-transfer-wise {
+	
+	
+}
+
+.block-tw {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width:519;
+	height:620;
+}
+	
+.block-transfer-wise-ref {
+	display: flex;
+	flex-direction: column;
+	height: 510px;
+	width:500;
+	
+	padding-right: 64px;
+	padding-top:27px;
+	color: #0044d6;
+	font-size: 31px ;
+	font-family: "Orpheus Pro";
+}
+
+.block-transfer-wise-title {
+	padding-top:43px;	
+text-decoration: underline ;
+     color: #0044d6;
+}
+
+
+.title {
+	 color: #0044d6;
+	font-size: 17px ;
+	font-family: "Orpheus Pro";
+	padding-bottom:17px;
+
+}
+
+.list-ref-name{
+	margin-top:23px;
+	line-height: 0.9;
+	color: #0044d6;
+	font-size: 31px ;
+	font-family: "Orpheus Pro";
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	
+}
+	
+.list-ref{
+	
+	padding-bottom:190px;
+}
+
+.style-text-ref, .get-in-touch{
+	text-decoration: underline;
+	color: #0044d6;		 
+}
+
+
+.style-text-ref:hover ,.block-transfer-wise-title:hover, .get-in-touch:hover{
+	color: #a2c4e6
+}
+
+.experience {
+	
+}
+
+.experience-text {
+	color: #0044d6;
+	font-size: 39px ;
+	font-family: "Orpheus Pro";
+	margin-top: 28px ;
+	
+	width:1050px;
+	height:151px;
+    line-height: 1.232;
+}
+
+.experience-name{
+	color: #0044d6;
+	font-size: 31px ;
+	font-family: "Orpheus Pro";
+	padding-top: 110px ;
+	width:540px;
+}
+
+.experience-date{
+	color: #0044d6;
+	font-size: 17px ;
+	font-family: "Orpheus Pro";
+	margin-top:28px;
+}
+
+.experience-discription{
+color: #404654;
+	font-size: 20px;
+	font-family: "Adobe Garamond Pro";
+	line-height: 1.6;
+	padding-top: 110px ;
+	
+}
+
+.block-experience{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	width:1050px;
+	
+}
+.get-in-touch{
+	color: #0044d6;
+	font-size: 31px ;
+	font-family: "Orpheus Pro";
+	padding-top:150px;
+	padding-bottom:70px;
+}
