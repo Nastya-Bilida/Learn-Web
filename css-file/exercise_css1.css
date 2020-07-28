@@ -203,10 +203,11 @@ color: #404654;
 	width:1050px;
 	
 }
-.get-in-touch{
+
+.block-get-in-touch{
 	color: #0044d6;
 	font-size: 31px ;
 	font-family: "Orpheus Pro";
-	padding-top:150px;
+		padding-top:150px;
 	padding-bottom:70px;
 }
